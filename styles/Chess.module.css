@@ -1,0 +1,27 @@
+.board {
+    text-align: center;
+    border-spacing: 0pt;
+    border-width: 0pt 0pt 0pt 0pt;
+    user-select: none;
+}
+
+.square {
+    font-family: 'Arial Unicode MS';
+    font-size: 24pt;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: default;
+}
+
+.white {
+    background-color: rgb(243, 112, 11);
+}
+
+.black {
+    background-color: rgb(115, 22, 214);
+}
+
+.square.isMoveOption {
+    cursor: pointer;
+    background-color: rgb(236, 244, 10);
+}
